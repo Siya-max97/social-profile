@@ -1,0 +1,117 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #FBFFFE; /* Off-white background */
+    color: #0C0C0C; /* Dark text for good contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.container-fluid {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #7B886B; /* Light gray-green background */
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0C0C0C;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h6 {
+    color: #DF2935; /* Accent color for the location */
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #0C0C0C;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Socials styling */
+.socialsbox {
+    margin-bottom: 20px;
+}
+
+.socialsbox a {
+    text-decoration: none;
+    color: #FBFFFE; /* White text */
+    background-color: #DF2935; /* Bright red for buttons */
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.socialsbox a:hover {
+    background-color: #E4FF1A; /* Highlight links on hover */
+    color: #0C0C0C;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    color: #0C0C0C;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer-copyright__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7B886B;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-copyright__reserved {
+    font-weight: bold;
+}
+
+.footer-copyright__links div,
+.footer-copyright__links a {
+    text-decoration: none;
+    color: #FBFFFE;
+}
+
+
+.button__text {
+    background-color: #DF2935;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.button__text:hover {
+    background-color: #E4FF1A;
+    color: #0C0C0C;
+}
